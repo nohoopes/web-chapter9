@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+body {
+	font-family: Arial;
+	font-size: 14pt;
+	margin: 2em;
+	margin-right: 2em;
+	background-image: url(image/sr.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+p {
+	margin-top: 50px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 150px;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50pt;
+}
+
+label {
+	float: left;
+	width: 6em;
+	margin-bottom: 0.5em;
+	color: black;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+	width: 350px;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+br {
+	clear: both;
+}
+
+#submit {
+	
+	background-color: white;
+	background-size: 100%;
+	color: black;
+	height: 23px;
+	width: 100px;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+

@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";
+body {
+	font-family: Arial;
+	font-size: 14pt;
+	margin: 2em;
+	margin-right: 2em;
+	background-image: url(image/bg2.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+p {
+	text-align: center;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50pt;
+}
+
+label {
+	float: left;
+	width: 6em;
+	margin-bottom: 0.5em;
+	color: black;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+	width: 350px;
+	margin-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+br {
+	clear: both;
+}
+
+#submit {
+	
+	background-color: white;
+	background-size: 100%;
+	color: black;
+	margin-left: 15px;
+	height: 30px;
+	width: 120px;
+	font-size: 12pt;
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+    background-image: linear-gradient(to left top, #602c53, #6e276a, #772385, #7823a5, #6c2bc9, #6d33da, #6d3beb, #6b43fd, #8a48fc, #a34ffc, #b956fb, #cc5ffb);
+	width: 750px;
+	height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 170px;
+	margin-bottom: auto;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 0 40px 8000px 0 rgba(0, 0, 0, 0.2);
+	color: black;
+}
+
+/* Add some padding inside the card container */
+.container {
+	padding: 2px 16px;
+}
+table
+{
+	width: 680px;
+	height: 250px;
+}
+table, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 20px;
+	color: white;
+	text-shadow: 5px 2px 4px black;
+} 
+.cd
+{
+	background-image: url(image/cd.gif);
+	background-size: 100%;
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 340px;
+	margin-bottom: 10px;
+}
